@@ -1,0 +1,19 @@
+.btnDelete {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    left: 50px;
+    font-size: 16px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    background-color: #767779;
+    color: white;
+    transition: all 0.3s;
+}
+
+.btnDelete:active {
+    transform: scale(0.95);
+}
